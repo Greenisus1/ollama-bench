@@ -24,3 +24,7 @@ Post your numbers in the issues so we can build a Pi 5 leaderboard.
 ## License
 
 MIT
+
+## Fullscreen Store launch
+
+Version 1.0.1 adds a full-terminal interface when launched through the Store. Python 3 with curses and an interactive terminal are required. The original source remains available directly. Interactive output wraps and scrolls with PgUp/PgDn. Enter returns after completion. Arguments on `bash app-store.sh run` retain the original command-line path. No administrative/package/transfer action ran during validation. Linux terminal checks passed; physical Raspberry Pi and non-Linux systems are untested.
